@@ -50,7 +50,7 @@ class Myhabitat extends utils.Adapter {
         // build folders given in the adapter settings
 
         this.log.error(__dirname); // 	/opt/iobroker/node_modules/iobroker.myhabitat
-        app.use(express.static(__dirname + '/public'));
+        app.use(express.static(__dirname + '/www'));
 
         this.httpTerminator = httpTerminator({ server, gracefulTerminationTimeout: 2000, maxWaitTimeout: 10000 });
     }
