@@ -1,0 +1,47 @@
+{
+    "cli": true,
+    "target": "directory",
+    "adapterName": "myhabitat",
+    "title": "myhabitat.gui",
+    "keywords": [
+        "GUI",
+        "VIS"
+    ],
+    "contributors": [
+        "ChriD"
+    ],
+    "expert": "yes",
+    "features": [
+        "adapter"
+    ],
+    "adminFeatures": [
+        "tab"
+    ],
+    "type": "visualization",
+    "startMode": "daemon",
+    "connectionType": "local",
+    "dataSource": "push",
+    "connectionIndicator": "yes",
+    "language": "JavaScript",
+    "adminReact": "no",
+    "tabReact": "no",
+    "tools": [
+        "ESLint",
+        "type checking"
+    ],
+    "i18n": "words.js",
+    "releaseScript": "yes",
+    "devServer": "no",
+    "indentation": "Space (4)",
+    "quotes": "single",
+    "es6class": "yes",
+    "authorName": "ChriD",
+    "authorGithub": "ChriD",
+    "authorEmail": "chris_d85@hotmail.com",
+    "gitRemoteProtocol": "HTTPS",
+    "gitCommit": "no",
+    "defaultBranch": "main",
+    "license": "MIT License",
+    "dependabot": "no",
+    "creatorVersion": "2.1.1"
+}
