@@ -35,7 +35,7 @@ class Myhabitat extends utils.Adapter {
         // Initialize your adapter here
         var app = express();
         var server = require('http').createServer(app);
-        var port = 3000;
+        var port = this.config.port;
 
         // Reset the connection indicator during startup
         this.setState('info.connection', false, true);
@@ -43,7 +43,7 @@ class Myhabitat extends utils.Adapter {
         // Mit diesem Kommando starten wir den Webserver.
         server.listen(port, () => {
             // Wir geben einen Hinweis aus, dass der Webserer läuft.
-            this.log.info(`Webserver läuft und hört auf Port ${port}`);
+            this.log.info(`Webserver running on port: ${port}`);
             this.setState('info.connection', true, true);
         });
 

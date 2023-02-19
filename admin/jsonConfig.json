@@ -1,0 +1,30 @@
+/*
+    https://unpkg.com/browse/iobroker.comfoairq@0.1.0/admin/jsonConfig.json
+    https://github.com/ioBroker/ioBroker.admin/blob/a19915fdb2daa9c96ad189d16d824be06962123b/src-rx/src/components/JsonConfigComponent/SCHEMA.md
+    https://github.com/ioBroker/ioBroker.admin/issues/1326
+*/
+{
+    "i18n": true,
+    "type": "panel",
+    "items": {
+        "localInterface": {
+            "type": "ip",
+            "sm": 12,
+            "md": 6,
+            "lg": 6,
+            "label": "Local interface",
+            "help": "Interface which should be used for network connection",
+            "onlyIp4": true,
+            "listenOnAllPorts": true
+        },       
+        "port": {
+            "newLine": true,
+            "type": "number",
+            "sm": 12,
+            "md": 6,
+            "lg": 6,
+            "label": "Webserver port",
+            "help": "Port where the gui is reachable"
+        }
+    }
+}

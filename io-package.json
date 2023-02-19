@@ -61,24 +61,8 @@
         "compact": true,
         "connectionType": "local",
         "dataSource": "push",
-        "materialize": true,
-        "materializeTab": true,
-        "adminTab": {
-            "singleton": true,
-            "name": {
-                "en": "myhabitat.gui",
-                "de": "myhabitat.gui",
-                "ru": "myhabitat.gui",
-                "pt": "myhabitat.gui",
-                "nl": "mijnhabitat.gui",
-                "fr": "monhabitat.gui",
-                "it": "myhabitat.gui",
-                "es": "myhabitat.gui",
-                "pl": "myhabitat.gui",
-                "zh-cn": "我的栖息地.gui"
-            },
-            "link": "",
-            "fa-icon": "info"
+        "adminUI": {
+            "config": "json"
         },
         "dependencies": [
             {
